@@ -8,7 +8,6 @@ defaults: &defaults
   min_messages: warning
   username: <%= ENV['USER'] %>
   host: localhost
-  port: 5433
 
 development:
   <<: *defaults
